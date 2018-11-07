@@ -6,6 +6,6 @@ export class Contact {
     number: string;
     address?: string;
     email?: string;
-    birthday: string;
-    image: Image;
+    birthday?: string;
+    contactImage?: Image;
 }
